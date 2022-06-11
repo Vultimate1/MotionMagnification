@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven {url "https://chaquo.com/maven"}
+    }
+}
+rootProject.name = "MotionMagnificationSingleScreen"
+include ':app'
+include ':java'
+include ':OpenCV'
